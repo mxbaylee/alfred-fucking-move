@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.mxbaylee.movealfred</string>
+	<key>connections</key>
+	<dict>
+		<key>635CA6CA-000B-429D-9364-74D453E4BD03</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3718904-084E-469C-B27B-4883061468AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AA27BE13-7E09-419D-AD74-2A7F6F66E1D3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3718904-084E-469C-B27B-4883061468AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AA869487-60EE-4EA0-B885-9DBB390A4550</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3718904-084E-469C-B27B-4883061468AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E3718904-084E-469C-B27B-4883061468AB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>426CF978-A339-433B-99A9-5B212F3290E0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>FA2CB472-1BD4-418F-BEC5-5109E2C9F8D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E3718904-084E-469C-B27B-4883061468AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Mx Baylee</string>
+	<key>description</key>
+	<string>Is Alfred covering up the context? Move Alfred now!</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Alfred, fucking move!</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>alfred_up</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>126</integer>
+				<key>hotmod</key>
+				<integer>11665408</integer>
+				<key>hotstring</key>
+				<string>↑</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AA27BE13-7E09-419D-AD74-2A7F6F66E1D3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>alfred_right</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>124</integer>
+				<key>hotmod</key>
+				<integer>11665408</integer>
+				<key>hotstring</key>
+				<string>→</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>635CA6CA-000B-429D-9364-74D453E4BD03</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>alfred_left</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>123</integer>
+				<key>hotmod</key>
+				<integer>11665408</integer>
+				<key>hotstring</key>
+				<string>←</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>FA2CB472-1BD4-418F-BEC5-5109E2C9F8D9</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string># Based On "Alfred Emoji" workflow
+# https://github.com/jsumners/alfred-emoji
+
+# THESE VARIABLES MUST BE SET.
+readonly github_repo='mxbaylee/alfred-fucking-move'
+readonly frequency_check='1' # days
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+readonly info_plist='info.plist'
+
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function notification {
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+function fetch_remote_version {
+  curl --silent "https://api.github.com/repos/${github_repo}/releases/latest" | grep 'tag_name' | head -1 | sed -E 's/.*tag_name": "v?(.*)".*/\1/'
+}
+
+function fetch_download_url {
+  curl --silent "https://api.github.com/repos/${github_repo}/releases/latest" | grep 'browser_download_url.*\.alfredworkflow"' | head -1 | sed -E 's/.*browser_download_url": "(.*)".*/\1/'
+}
+
+function download_and_install {
+  readonly tmpfile="$(mktemp).alfredworkflow"
+  notification 'Downloading and installing…'
+  curl --silent --location --output "${tmpfile}" "${1}"
+  open "${tmpfile}"
+}
+
+# Local sanity checks
+[[ -n "${alfred_workflow_version}" ]] || abort "'alfred_workflow_version' must be set."
+[[ -n "${alfred_workflow_name}" ]] || abort "'alfred_workflow_name' must be set."
+[[ "${github_repo}" =~ ^.+\/.+$ ]] || abort "'github_repo' (${github_repo}) must be in the format 'username/repo'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) must be a number."
+
+# Check for updates
+if [[ $(find "${info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if [[ "${alfred_workflow_version}" == "$(fetch_remote_version)" ]]; then
+    touch "${info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  download_and_install "$(fetch_download_url)"
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>426CF978-A339-433B-99A9-5B212F3290E0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>on run argv
+    set theQuery to item 1 of argv
+    
+    if not running of application "Alfred" then return
+    
+    tell application "System Events"
+        tell application process "Alfred"
+            set |position| to position of window 1
+            
+            if theQuery is "alfred_up" then
+                set position of window 1 to {((item 1 of |position|)), ((item 2 of |position|) - 200)}
+            else if theQuery is "alfred_down" then
+                set position of window 1 to {((item 1 of |position|)), ((item 2 of |position|) + 200)}
+            else if theQuery is "alfred_left" then
+                set position of window 1 to {((item 1 of |position|) - 200), ((item 2 of |position|))}
+            else if theQuery is "alfred_right" then
+                set position of window 1 to {((item 1 of |position|) + 200), ((item 2 of |position|))}
+            end if
+        end tell
+    end tell
+    
+    return theQuery
+end run</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E3718904-084E-469C-B27B-4883061468AB</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>alfred_down</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>125</integer>
+				<key>hotmod</key>
+				<integer>11665408</integer>
+				<key>hotstring</key>
+				<string>↓</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>AA869487-60EE-4EA0-B885-9DBB390A4550</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## 🎩 Alfred, fucking move!
+
+Have you ever opened Alfred, only to realize it's hovering over the text you're referencing?
+
+You're faced with a delima of losing your input or worse.. using to your 🐭 mouse.
+
+🦸 Fear no more!
+
+* Up - (shift + cmd + up) - Moves Alfred up 200px
+* Right - (shift + cmd + right) - Moves Alfred to the right 200px
+* Down - (shift + cmd + down) - Moves Alfred down 200px
+* Left - (shift + cmd + left) - Moves Alfred left 200px</string>
+	<key>uidata</key>
+	<dict>
+		<key>426CF978-A339-433B-99A9-5B212F3290E0</key>
+		<dict>
+			<key>note</key>
+			<string>Auto Update - remove to disable</string>
+			<key>xpos</key>
+			<real>765</real>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>635CA6CA-000B-429D-9364-74D453E4BD03</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Set the hotkey here to paste your clipboard content as plain text.</string>
+			<key>xpos</key>
+			<real>290</real>
+			<key>ypos</key>
+			<real>215</real>
+		</dict>
+		<key>AA27BE13-7E09-419D-AD74-2A7F6F66E1D3</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Set the hotkey here to paste your clipboard content as plain text.</string>
+			<key>xpos</key>
+			<real>160</real>
+			<key>ypos</key>
+			<real>65</real>
+		</dict>
+		<key>AA869487-60EE-4EA0-B885-9DBB390A4550</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Set the hotkey here to paste your clipboard content as plain text.</string>
+			<key>xpos</key>
+			<real>160</real>
+			<key>ypos</key>
+			<real>375</real>
+		</dict>
+		<key>E3718904-084E-469C-B27B-4883061468AB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>260</real>
+		</dict>
+		<key>FA2CB472-1BD4-418F-BEC5-5109E2C9F8D9</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>7</integer>
+			<key>note</key>
+			<string>Set the hotkey here to paste your clipboard content as plain text.</string>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>225</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>version</key>
+	<string>0.0.1</string>
+	<key>webaddress</key>
+	<string>https://github.com/mxbaylee</string>
+</dict>
+</plist>
